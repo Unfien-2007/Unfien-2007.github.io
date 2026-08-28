@@ -13,9 +13,9 @@ This website serves as a living record of my learning journey. It showcases my f
 
 My core focus right now spans a few key areas of technology:
 
-- **Data Science & Analytics:** Exploring data structures and machine learning fundamentals using Python and SQL.
-- **Software & Game Development:** Building enterprise logic and interactive experiences with Java.
+- **Software Development:** Building enterprise logic and interactive experiences with Java.
 - **Hardware & Embedded Systems:** Tinkering with IoT and robotics using microcontrollers like Arduino and ESP32.
+- **Data Science & Analytics:** Exploring data structures and machine learning fundamentals using Python and SQL.
 
 ## Hobbies & Projects[](https://unfien-2007.github.io/about/#hobbies--projects)
 
