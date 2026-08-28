@@ -131,9 +131,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: Unfien-2007/Unfien-2007.github.io # <gh-username>/<repo>
-    repo_id: # fill in repo_id from https://giscus.app
+    repo_id: R_kgDOUE8Fzw # fill in repo_id from https://giscus.app
     category: General
-    category_id: # fill in category_id from https://giscus.app
+    category_id: DIC_kwDOUE8Fz84DEWKt # fill in category_id from https://giscus.app
     mapping: pathname # optional, default to 'pathname'
     strict: 0 # optional, default to '0'
     input_position: bottom # optional, default to 'bottom'
