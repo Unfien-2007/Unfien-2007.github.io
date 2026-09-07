@@ -5,21 +5,21 @@
   --main-border-color: #f3f3f3;
 
   /* Common color */
-  --text-color: #34343c;
-  --text-muted-color: #757575;
+  --text-color: rgb(31 35 40); /* was #34343c */
+  --text-muted-color: #656d76;
   --text-muted-highlight-color: inherit;
-  --heading-color: #2a2a2a;
+  --heading-color: rgb(24 26 31); /* was #2a2a2a */
   --label-color: #585858;
   --blockquote-border-color: #eeeeee;
-  --blockquote-text-color: #757575;
-  --link-color: #0056b2;
-  --link-underline-color: #dee2e6;
+  --blockquote-text-color: #656d76;
+  --link-color: rgb(9 105 218); /* GitHub blue */
+  --link-underline-color: rgb(9 105 218 / 30%);
   --button-bg: #ffffff;
-  --btn-border-color: #e9ecef;
+  --btn-border-color: #d0d7de;
   --btn-backtotop-color: #686868;
   --btn-backtotop-border-color: #f1f1f1;
   --checkbox-color: #c5c5c5;
-  --checkbox-checked-color: #07a8f7;
+  --checkbox-checked-color: rgb(9 105 218);
   --img-bg: radial-gradient(circle, rgb(255 255 255) 0%, rgb(239 239 239) 100%);
   --shimmer-bg: linear-gradient(
     90deg,
@@ -34,23 +34,23 @@
   --menu-highlight-bg: rgb(243 244 245 / 50%);
 
   /* Sidebar */
-  --site-title-color: rgb(113 113 113);
-  --site-subtitle-color: #717171;
+  --site-title-color: rgb(31 35 40);
+  --site-subtitle-color: #656d76;
   --sidebar-bg: #f6f8fa;
-  --sidebar-border-color: #efefef;
+  --sidebar-border-color: #d0d7de;
   --sidebar-muted-color: #545454;
   --sidebar-active-color: #1d1d1d;
-  --sidebar-hover-bg: rgb(223 233 241 / 64%);
+  --sidebar-hover-bg: rgb(233 236 239 / 64%);
   --sidebar-btn-bg: white;
   --sidebar-btn-color: #8e8e8e;
-  --avatar-border-color: white;
+  --avatar-border-color: #d0d7de;
 
   /* Topbar */
   --topbar-bg: rgb(255 255 255 / 70%);
-  --topbar-text-color: rgb(78 78 78);
+  --topbar-text-color: rgb(31 35 40);
   --search-border-color: rgb(240 240 240);
   --search-icon-color: #c2c6cc;
-  --input-focus-border-color: #b8b8b8;
+  --input-focus-border-color: rgb(9 105 218);
 
   /* Home page */
   --post-list-text-color: dimgray;
@@ -58,14 +58,14 @@
   --btn-paginator-hover-color: var(--sidebar-bg);
 
   /* Posts */
-  --toc-highlight: #0550ae;
-  --toc-popup-border-color: lightgray;
+  --toc-highlight: rgb(9 105 218);
+  --toc-popup-border-color: #d0d7de;
   --btn-share-color: gray;
-  --btn-share-hover-color: #0d6efd;
+  --btn-share-hover-color: rgb(9 105 218);
   --card-bg: white;
   --card-hover-bg: #e2e2e2;
   --card-shadow:
-    rgb(104 104 104 / 5%) 0 2px 6px 0, rgb(211 209 209 / 15%) 0 0 0 1px;
+    rgb(1 4 9 / 8%) 0 1px 3px 0, rgb(48 54 61 / 12%) 0 0 0 1px;
   --footnote-target-bg: lightcyan;
   --tb-odd-bg: #fbfcfd;
   --tb-border-color: #eaeaea;
@@ -77,7 +77,7 @@
   --prompt-tip-bg: rgb(123 247 144 / 20%);
   --prompt-tip-icon-color: #03b303;
   --prompt-info-bg: #e1f5fe;
-  --prompt-info-icon-color: #0070cb;
+  --prompt-info-icon-color: rgb(9 105 218);
   --prompt-warning-bg: rgb(255 243 205);
   --prompt-warning-icon-color: #ef9c03;
   --prompt-danger-bg: rgb(248 215 218 / 56%);
