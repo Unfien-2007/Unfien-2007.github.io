@@ -1,12 +1,14 @@
 ---
-layout: page
-# The Project page layout — renders a single project from the `_projects` collection.
-# Each project is just a normal Markdown file, e.g. `_projects/my-build.md`.
+layout: default
+panel_includes:
+  - toc
 ---
 
 {% include lang.html %}
 
-<article class="px-1">
+{% include toc-status.html %}
+
+<article class="px-1" data-toc="{{ enable_toc }}">
   <header>
     <h1 data-toc-skip>{{ page.title }}</h1>
     {% if page.description %}
