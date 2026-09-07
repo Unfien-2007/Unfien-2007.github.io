@@ -181,6 +181,8 @@ collections:
   tabs:
     output: true
     sort_by: order
+  projects:
+    output: true
 
 defaults:
   - scope:
@@ -203,6 +205,14 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      comments: false
+      toc: true
+      permalink: /projects/:name/
 
 sass:
   style: compressed
@@ -228,10 +238,8 @@ exclude:
   - "package*.json"
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [categories]
   layouts:
     category: category
-    tag: tag
   permalinks:
-    tag: /tags/:name/
     category: /categories/:name/
