@@ -2,6 +2,8 @@
 layout: default
 panel_includes:
   - toc
+script_includes:
+  - comment
 ---
 
 {% include lang.html %}
@@ -16,10 +18,19 @@ panel_includes:
     {% endif %}
 
     <div class="post-meta text-muted">
+      <!-- published date -->
       {% if page.date %}
         <span>
-          <i class="far fa-calendar fa-fw me-1"></i>
+          {{ site.data.locales[lang].post.posted }}
           {% include datetime.html date=page.date tooltip=true lang=lang %}
+        </span>
+      {% endif %}
+
+      <!-- lastmod date -->
+      {% if page.last_modified_at and page.last_modified_at != page.date %}
+        <span>
+          {{ site.data.locales[lang].post.updated }}
+          {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
         </span>
       {% endif %}
 
@@ -37,6 +48,24 @@ panel_includes:
           {% endfor %}
         </div>
       {% endif %}
+
+      <div class="d-flex justify-content-between mt-2">
+        <span></span>
+        <div>
+          <!-- pageviews -->
+          {% if site.pageviews.provider and site.analytics[site.pageviews.provider].id %}
+            <span>
+              <em id="pageviews">
+                <i class="fas fa-spinner fa-spin small"></i>
+              </em>
+              {{ site.data.locales[lang].post.pageview_measure }}
+            </span>
+          {% endif %}
+
+          <!-- read time -->
+          {% include read-time.html content=content prompt=true lang=lang %}
+        </div>
+      </div>
 
       {% if page.repo or page.demo %}
         <div class="mt-3 d-flex gap-2">
@@ -70,6 +99,73 @@ panel_includes:
   <div class="content">
     {{ content }}
   </div>
+
+  <!-- related projects (same tracking idea as related-posts: shared tech) -->
+  {% if page.tech and page.tech.size > 0 %}
+    {% assign related = '' | split: '' %}
+    {% for project in site.projects %}
+      {% if project.url == page.url %}
+        {% continue %}
+      {% endif %}
+      {% assign shared = false %}
+      {% for t in project.tech %}
+        {% if page.tech contains t %}
+          {% assign shared = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% if shared %}
+        {% assign related = related | push: project %}
+      {% endif %}
+      {% if related.size >= 3 %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if related.size > 0 %}
+      <div class="mt-5">
+        <h2 class="h5">{{ site.data.locales[lang].post.relate_posts | default: 'Further Reading' }}</h2>
+        <ul>
+          {% for project in related %}
+            <li><a href="{{ project.url | relative_url }}">{{ project.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  {% endif %}
+
+  <!-- prev/next project nav (same tracking idea as post-nav) -->
+  {% assign sorted_projects = site.projects | sort: 'date' %}
+  {% assign prev_project = nil %}
+  {% assign next_project = nil %}
+  {% for project in sorted_projects %}
+    {% if project.url == page.url %}
+      {% assign prev_index = forloop.index0 | minus: 1 %}
+      {% assign next_index = forloop.index0 | plus: 1 %}
+      {% if prev_index >= 0 %}
+        {% assign prev_project = sorted_projects[prev_index] %}
+      {% endif %}
+      {% if next_index < sorted_projects.size %}
+        {% assign next_project = sorted_projects[next_index] %}
+      {% endif %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if prev_project or next_project %}
+    <div class="d-flex justify-content-between mt-5">
+      <div>
+        {% if prev_project %}
+          <a href="{{ prev_project.url | relative_url }}">&larr; {{ prev_project.title }}</a>
+        {% endif %}
+      </div>
+      <div>
+        {% if next_project %}
+          <a href="{{ next_project.url | relative_url }}">{{ next_project.title }} &rarr;</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
 
   <div class="mt-5">
     <a href="{{ '/projects/' | relative_url }}">&larr; Back to Projects</a>

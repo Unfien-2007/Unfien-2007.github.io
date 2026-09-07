@@ -1,11 +1,13 @@
-<!-- Get 5 last posted/updated posts -->
+<!-- Get 5 last posted/updated posts and projects -->
 
 {% assign MAX_SIZE = 5 %}
 
+{% assign all_items = site.posts | concat: site.projects %}
+
 {% assign all_list = '' | split: '' %}
 
-{% for post in site.posts %}
-  {% assign datetime = post.last_modified_at | default: post.date %}
+{% for item in all_items %}
+  {% assign datetime = item.last_modified_at | default: item.date %}
 
   {% capture elem %}
     {{- datetime | date: "%Y%m%d%H%M%S" -}}::{{- forloop.index0 -}}
@@ -28,10 +30,10 @@
     <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
       {% for item in update_list %}
         {% assign index = item | split: '::' | last | plus: 0 %}
-        {% assign post = site.posts[index] %}
-        {% assign url = post.url | relative_url %}
+        {% assign entry = all_items[index] %}
+        {% assign url = entry.url | relative_url %}
         <li class="text-truncate lh-lg">
-          <a href="{{ url }}">{{ post.title }}</a>
+          <a href="{{ url }}">{{ entry.title }}</a>
         </li>
       {% endfor %}
     </ul>
