@@ -46,4 +46,13 @@
 
     {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
   </p>
+
+  {% if site.analytics.goatcounter.id and site.analytics.goatcounter.id != empty %}
+    <p>
+      <i class="fas fa-eye"></i>
+      <em id="site-total-views">…</em>
+      {{ 'views' }}
+    </p>
+    {% include pageviews/total.html %}
+  {% endif %}
 </footer>
