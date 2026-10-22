@@ -32,9 +32,9 @@ workstation for school, coding, and light gaming, one cheap upgrade at a time.
 |:--|:--|:--|
 | CPU | Intel Core i7-9700 | 8 cores / 8 threads — already the top chip for this socket, no CPU upgrade path |
 | RAM | 8 GB DDR4 | Single stick, 2666 MHz |
-| Storage | 240 GB SATA SSD (boot) + 480 GB SATA SSD | Second drive added 2026-10-23 |
-| GPU | GeForce GT 730 2 GB | Low-profile, slot-powered — current display output (UHD 630 iGPU as backup) |
-| Case / PSU | Dell Vostro 3671 SFF | Proprietary ~290 W PSU (check the label on yours) |
+| Storage | 240 GB SATA SSD (boot) + 480 GB SATA SSD | Second drive added 2026-10-23 (bought Dec 2025) |
+| GPU | GeForce GT 730 2 GB | Slot-powered — current display output (UHD 630 iGPU as backup) |
+| Case / PSU | Dell Vostro 3671 micro tower | Proprietary ~290 W PSU (check the label on yours) |
 
 ## Desk Setup
 
@@ -55,6 +55,7 @@ workstation for school, coding, and light gaming, one cheap upgrade at a time.
 ### 2026-10-23 — Storage upgrade
 
 - Added a **480 GB SATA SSD** — ₱3,500
+- The drive was bought back in **December 2025** and finally made it into the build
 - More room for games, projects, and files without touching the boot drive
 
 ### 2026-10-10 — Baseline (as purchased)
@@ -65,25 +66,17 @@ workstation for school, coding, and light gaming, one cheap upgrade at a time.
 ## Planned Upgrades
 
 - [ ] **RAM 8 → 16 GB** — add a matching DDR4-2666 stick (~₱1k, biggest cheap win)
-- [ ] **GPU** — low-profile, slot-powered card that fits the SFF case and stock PSU
-      (e.g. GTX 1650 LP / RTX 3050 6 GB LP class — verify PSU wattage first)
+- [ ] **GPU** — slot-powered card that works with the stock PSU
+      (e.g. GTX 1650 / RTX 3050 6 GB class — verify wattage and connectors first)
 - [x] **Storage** — added a 480 GB SATA SSD (~₱3,500); expand to 1 TB when it fills up
 - [ ] **Cooling & maintenance** — new thermal paste, maybe a quieter case fan
 
 ## Notes & Lessons
 
-- The SFF case only accepts **half-height (low-profile)** cards, and the stock PSU
-  has no PCIe power cables — slot-powered cards only.
+- The micro tower has full-height expansion slots, but the stock PSU has no PCIe
+  power cables — slot-powered cards only unless the PSU is replaced.
 - The i7-9700 is the top of its platform; the realistic gains are RAM, GPU, and storage.
 - The i7-9700 includes Intel UHD 630 integrated graphics — a free backup if the
   GT 730 ever acts up, and one less thing to worry about during a GPU swap.
 - Adding a SATA SSD was the easiest upgrade so far — no clearance or power-draw
   concerns, just a spare SATA data and power cable.
-
-## Benchmarks
-
-| Test | Baseline | After upgrades |
-|:--|:--|:--|
-| Cinebench R23 multi | — | — |
-| Boot to desktop | — | — |
-| Favorite game @ settings | — | — |
