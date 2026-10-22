@@ -21,6 +21,9 @@ jobs:
       - name: Install Node deps
         run: npm i
 
+      - name: Build Assets
+        run: npm run build || true
+
       - name: Lint SCSS (capture)
         run: |
           mkdir -p .github/debug-logs
@@ -31,8 +34,18 @@ jobs:
           ruby-version: "3.4"
           bundler-cache: true
 
-      - name: Test Site (capture)
-        run: bash tools/test.sh > .github/debug-logs/ci.log 2>&1 || true
+      - name: Jekyll build (capture)
+        run: |
+          rm -rf _site
+          JEKYLL_ENV=production bundle exec jekyll b -d _site -c _config.yml > .github/debug-logs/jekyll-build.log 2>&1 || true
+
+      - name: Htmlproofer (capture)
+        run: |
+          if [ -d _site ]; then
+            bundle exec htmlproofer _site --disable-external --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/" > .github/debug-logs/htmlproofer.log 2>&1 || true
+          else
+            echo "_site missing" > .github/debug-logs/htmlproofer.log
+          fi
 
       - name: Commit logs back to repo
         run: |
