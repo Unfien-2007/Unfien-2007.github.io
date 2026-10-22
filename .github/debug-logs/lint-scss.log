@@ -1,0 +1,11 @@
+
+> jekyll-theme-chirpy@7.6.0 lint:scss
+> stylelint _sass/**/*.scss
+
+
+_sass/pages/_projects.scss
+  [2m8:3[22m  [31m[31m✖[39m  Expected no empty line before declaration  [2mdeclaration-empty-line-before[22m
+
+[31m✖[39m 1 problem ([31m1 error[39m, [33m0 warnings[39m)
+  1 error potentially fixable with the "--fix" option.
+
