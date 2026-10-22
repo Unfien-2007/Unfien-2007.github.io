@@ -37,7 +37,7 @@ Files customized beyond stock Chirpy (review these during upstream merges):
   `_includes/search-loader.html`, `_includes/status-badge.html`
 - `assets/js/data/search.json`
 - `_plugins/posts-lastmod-hook.rb`
-- `_sass/pages/_home.scss`
+- `_sass/pages/_home.scss`, `_sass/pages/_projects.scss`
 - `.github/workflows/jekyll.yml` (deployment; theme-internal CI workflows were removed)
 
 ## Features
