@@ -16,7 +16,7 @@ timezone: Asia/Manila
 
 title: Unfien # the main title
 
-tagline: Backend & DevOps Engineering Student # it will display as the subtitle
+tagline: "BSIT student · deployment, Python & embedded tinkering" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Unfien's Professional/Site where he stores his BSIT journey and hobbies connected to it.
