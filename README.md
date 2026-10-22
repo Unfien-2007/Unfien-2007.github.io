@@ -18,6 +18,28 @@
 
 </div>
 
+## Maintenance Notes
+
+This repository is a fork of the Chirpy theme (not the Chirpy Starter template),
+customized for <https://Unfien-2007.github.io>. To pull upstream theme updates:
+
+```sh
+git remote add upstream https://github.com/cotes2020/jekyll-theme-chirpy.git
+git fetch upstream
+git merge upstream/master
+```
+
+Files customized beyond stock Chirpy (review these during upstream merges):
+
+- `_config.yml`, `index.html`
+- `_layouts/home.html`, `_layouts/project.html`
+- `_includes/project-list.html`, `_includes/update-list.html`,
+  `_includes/search-loader.html`, `_includes/status-badge.html`
+- `assets/js/data/search.json`
+- `_plugins/posts-lastmod-hook.rb`
+- `_sass/pages/_home.scss`
+- `.github/workflows/jekyll.yml` (deployment; theme-internal CI workflows were removed)
+
 ## Features
 
 - **Design & UX** - Responsive layout, Dark/Light modes, Localized UI language,

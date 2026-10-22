@@ -9,7 +9,7 @@ I have always been deeply attracted to technology because it provides people lik
 
 This website serves as a living record of my learning journey. It showcases my foundational skills, my growing knowledge in the IT field, and the various tech-related hobbies I am passionate about. I am currently focusing on building my skills from the ground up and embracing a beginner’s mindset to tackle new challenges.
 
-## What I’m Learning & Using[](https://unfien-2007.github.io/about/#what-im-learning--using)
+## What I’m Learning & Using
 
 My core focus right now spans a few key areas of technology:
 
@@ -17,10 +17,10 @@ My core focus right now spans a few key areas of technology:
 - **Hardware & Embedded Systems:** Tinkering with IoT and robotics using microcontrollers like Arduino and ESP32.
 - **Data Science & Analytics:** Exploring data structures and machine learning fundamentals using Python and SQL.
 
-## Hobbies & Projects[](https://unfien-2007.github.io/about/#hobbies--projects)
+## Hobbies & Projects
 
 Beyond the code, I love getting my hands dirty with the physical side of IT. Some of my favorite ongoing projects and hobbies include:
 
-- **PC Building & Optimization:** Selecting cheap used computer from shopee to hopefully actually experience having a pc even if it look like if i want to actually build a pc i would need a minimun of 50k for one that will last.
+- **PC Building & Optimization:** Scouting cheap used PCs and parts on Shopee so I can finally experience having my own PC — a brand-new build that would last would need a minimum of ₱50k.
 
 Feel free to look around my site to see my latest projects, notes, and the things I am currently building!

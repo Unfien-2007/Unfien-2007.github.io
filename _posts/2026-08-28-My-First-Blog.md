@@ -2,7 +2,8 @@
 title: My First Blog
 author: unfien
 date: 2026-08-28 20:00:00 +0800
-categories: [Blog, Essay]
+categories: [Journal]
+tags: [beginnings, career]
 ---
 
 My journey through IT technically started when I realized that for someone like me who has a chronic illness, finding a job to earn a living would be a nightmare if I had to rely on physical labor.

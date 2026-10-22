@@ -2,8 +2,11 @@
 title: How I Rationalize Not To Kill Myself
 author: unfien
 date: 2026-09-11 20:00:00 +0800
-categories: [Blog, Essay]
+categories: [Journal]
+tags: [mental-health]
 ---
+
+> **Content note:** This post discusses suicidal thoughts. If you're struggling, you don't have to go through it alone. In the Philippines, you can call the NCMH National Crisis Hotline at **1553** (toll-free), **0917-899-8727** (Globe/TM), or **0966-351-4518** (Smart/Sun/TNT). Outside the Philippines, please reach out to your local emergency services or crisis line.
 
 Yesterday was world suicide prevention day. And i think i should try to journal my thoughts my way so im posting my feelings about suicide.
 

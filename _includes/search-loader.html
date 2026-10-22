@@ -8,6 +8,7 @@
     <header>
       <h2><a href="{url}">{title}</a></h2>
       <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">
+        {type}
         {categories}
         {tags}
       </div>
@@ -28,6 +29,14 @@
       searchResultTemplate: '{{ result_elem | strip_newlines }}',
       noResultsText: '{{ not_found }}',
       templateMiddleware: function(prop, value, template) {
+        if (prop === 'type') {
+          if (value === 'projects') {
+            return `<div class="me-sm-4"><span class="badge bg-primary">Project</span></div>`;
+          }
+
+          return '';
+        }
+
         if (prop === 'categories') {
           if (value === '') {
             return `${value}`;

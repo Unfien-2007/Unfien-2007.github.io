@@ -1,0 +1,22 @@
+{%- comment -%}
+  Map a project status to a Bootstrap badge color class.
+
+  Sets the variable `status_class` for the including template.
+
+  Usage: {% include status-badge.html status=project.status %}
+{%- endcomment -%}
+
+{% assign _status = include.status | downcase | strip %}
+
+{% case _status %}
+  {% when 'completed', 'complete', 'done', 'finished', 'shipped', 'released' %}
+    {% assign status_class = 'bg-success' %}
+  {% when 'in progress', 'wip', 'ongoing', 'active', 'building' %}
+    {% assign status_class = 'bg-warning' %}
+  {% when 'paused', 'on hold', 'on-hold', 'planned' %}
+    {% assign status_class = 'bg-secondary' %}
+  {% when 'archived', 'abandoned', 'deprecated' %}
+    {% assign status_class = 'bg-secondary' %}
+  {% else %}
+    {% assign status_class = 'bg-secondary' %}
+{% endcase %}
