@@ -32,9 +32,16 @@ workstation for school, coding, and light gaming, one cheap upgrade at a time.
 |:--|:--|:--|
 | CPU | Intel Core i7-9700 | 8 cores / 8 threads — already the top chip for this socket, no CPU upgrade path |
 | RAM | 8 GB DDR4 | Single stick, 2666 MHz |
-| Storage | 240 GB SATA SSD | Boot drive |
+| Storage | 240 GB SATA SSD (boot) + 480 GB SATA SSD | Second drive added 2026-10-23 |
 | GPU | GeForce GT 730 2 GB | Low-profile, slot-powered — current display output (UHD 630 iGPU as backup) |
 | Case / PSU | Dell Vostro 3671 SFF | Proprietary ~290 W PSU (check the label on yours) |
+
+## Desk Setup
+
+| Peripheral | Now |
+|:--|:--|
+| Keyboard | Mechanical keyboard |
+| Monitor | 15.6" external monitor |
 
 ## Purchase & Context
 
@@ -44,6 +51,11 @@ workstation for school, coding, and light gaming, one cheap upgrade at a time.
   at a price a student budget can survive
 
 ## Upgrade Log
+
+### 2026-10-23 — Storage upgrade
+
+- Added a **480 GB SATA SSD** — ₱3,500
+- More room for games, projects, and files without touching the boot drive
 
 ### 2026-10-10 — Baseline (as purchased)
 
@@ -55,7 +67,7 @@ workstation for school, coding, and light gaming, one cheap upgrade at a time.
 - [ ] **RAM 8 → 16 GB** — add a matching DDR4-2666 stick (~₱1k, biggest cheap win)
 - [ ] **GPU** — low-profile, slot-powered card that fits the SFF case and stock PSU
       (e.g. GTX 1650 LP / RTX 3050 6 GB LP class — verify PSU wattage first)
-- [ ] **Storage** — add a 1 TB SATA SSD or HDD for games and files
+- [x] **Storage** — added a 480 GB SATA SSD (~₱3,500); expand to 1 TB when it fills up
 - [ ] **Cooling & maintenance** — new thermal paste, maybe a quieter case fan
 
 ## Notes & Lessons
@@ -65,6 +77,8 @@ workstation for school, coding, and light gaming, one cheap upgrade at a time.
 - The i7-9700 is the top of its platform; the realistic gains are RAM, GPU, and storage.
 - The i7-9700 includes Intel UHD 630 integrated graphics — a free backup if the
   GT 730 ever acts up, and one less thing to worry about during a GPU swap.
+- Adding a SATA SSD was the easiest upgrade so far — no clearance or power-draw
+  concerns, just a spare SATA data and power cable.
 
 ## Benchmarks
 
