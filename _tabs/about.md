@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 5
 ---
 Hi there! I’m **John Paul Gonzales**, a second-year Bachelor of Science in Information Technology (BSIT) student at Batangas State University.
 

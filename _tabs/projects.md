@@ -1,6 +1,6 @@
 ---
 icon: fas fa-diagram-project
-order: 2
+order: 3
 ---
 
 <!-- Each project is a normal Markdown file in the `_projects/` folder. -->

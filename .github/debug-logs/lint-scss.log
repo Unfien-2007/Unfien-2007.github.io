@@ -1,4 +1,0 @@
-
-> jekyll-theme-chirpy@7.6.0 lint:scss
-> stylelint _sass/**/*.scss
-
