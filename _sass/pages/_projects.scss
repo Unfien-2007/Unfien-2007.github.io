@@ -1,18 +1,5 @@
-@use '../abstracts/breakpoints' as bp;
-
-/* Project cards: responsive grid (home + Projects tab) */
+/* Project cards: full-width boxes matching the post list */
 
 #project-list {
   margin-top: 0;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.25rem;
-
-  @include bp.lg {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .card-wrapper:not(:last-child) {
-    margin-bottom: 0;
-  }
 }
