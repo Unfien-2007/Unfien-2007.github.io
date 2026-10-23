@@ -13,7 +13,7 @@ whatever I'm learning next.
 
 **Open to internships and OJT opportunities.**
 
-[Email](mailto:Unfienproductions@gmail.com) · [GitHub](https://github.com/Unfien-2007) · [LinkedIn](https://www.linkedin.com/in/john-paul-gonzales-a9b199389) · [RSS](/feed.xml)
+[Unfienproductions@gmail.com](mailto:Unfienproductions@gmail.com) · [GitHub](https://github.com/Unfien-2007) · [LinkedIn](https://www.linkedin.com/in/john-paul-gonzales-a9b199389) · [RSS](/feed.xml)
 
 ## Education
 
