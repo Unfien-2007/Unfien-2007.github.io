@@ -1,29 +1,57 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 5
+icon: fas fa-user
+order: 1
 ---
-Hi there! I’m **John Paul Gonzales**, a second-year Bachelor of Science in Information Technology (BSIT) student at Batangas State University.
 
-I have always been deeply attracted to technology because it provides people like me with a chronic illness a chance to experience the world, connect with others, and build meaningful things without physical limitations.
+I'm **John Paul Gonzales**, a second-year BSIT student at Batangas State University in
+the Philippines. I like taking projects from `git push` to a live, running service — and
+documenting what breaks along the way.
 
-This website serves as a living record of my learning journey. It showcases my foundational skills, my growing knowledge in the IT field, and the various tech-related hobbies I am passionate about. I am currently focusing on building my skills from the ground up and embracing a beginner’s mindset to tackle new challenges.
+I got into IT because it gives someone with a chronic illness a way to build and take
+part without physical limits. This site is where I keep the record: projects, notes, and
+whatever I'm learning next.
 
-## What I’m Learning & Using
+**Open to internships and OJT opportunities.**
 
-My core focus right now spans a few key areas of technology:
+[Email](mailto:Unfienproductions@gmail.com) · [GitHub](https://github.com/Unfien-2007) · [LinkedIn](https://www.linkedin.com/in/john-paul-gonzales-a9b199389) · [RSS](/feed.xml)
 
-- **Software Development:** Building enterprise logic and interactive experiences with Java.
-- **Hardware & Embedded Systems:** Tinkering with IoT and robotics using microcontrollers like Arduino and ESP32.
-- **Data Science & Analytics:** Exploring data structures and machine learning fundamentals using Python and SQL.
+## Education
+
+**Bachelor of Science in Information Technology (BSIT)**\
+Batangas State University · 2nd year
+
+## What I'm focused on
+
+- **Deployment & operations** — getting projects live and keeping them running:
+  GitHub Actions, GitHub Pages, CI/CD, PWA caching
+- **Python for data** — learning data analysis (pandas) through coursework and DataCamp
+- **Embedded & hardware** — simple ESP32/Arduino experiments and a budget desktop build
+
+## Tech Stack
+
+**Used in coursework & projects** — Java · Python · SQL · SQLite · Git · GitHub ·
+GitHub Actions · Arduino · ESP32
+
+**Currently learning** — Linux administration · Vercel · Python data analysis (pandas)
+
+**Curious about** — Docker · self-hosting · homelabs
+
+## Featured Projects
+
+- **[This site](/)** — Jekyll + Chirpy, deployed and maintained with GitHub Actions,
+  with PWA caching and analytics
+- **[Dell Vostro 3671 Build](/projects/dell-vostro-3671/)** — build log for my first
+  desktop, upgraded one part at a time
+
+More on the [Projects page](/projects/).
 
 ## Hobbies & Projects
 
-Beyond the code, I love getting my hands dirty with the physical side of IT. Some of my favorite ongoing projects and hobbies include:
+Beyond the code, I like getting my hands dirty with the physical side of IT:
 
-- **PC Building & Optimization:** Scouting cheap used PCs and parts on Shopee so I can finally experience having my own PC — a brand-new build that would last would need a minimum of ₱50k.
-
-Feel free to look around my site to see my latest projects, notes, and the things I am currently building!
+- **PC Building & Optimization:** Scouting cheap used PCs and parts on Shopee so I can
+  finally experience having my own PC — a brand-new build that would last would need a
+  minimum of ₱50k.
 
 ---
 

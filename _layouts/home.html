@@ -4,6 +4,21 @@ layout: default
 
 {% include lang.html %}
 
+<section id="home-hero" class="mb-4">
+  <h1 class="h3 mb-1">John Paul Gonzales</h1>
+  <p class="text-muted mb-2">2nd-year BSIT student · open to internships and OJT</p>
+  <p class="mb-3">
+    I like taking projects from <code>git push</code> to a live, running service — and
+    documenting what breaks along the way.
+  </p>
+  <div class="d-flex flex-wrap gap-2">
+    <a class="btn btn-outline-primary btn-sm" href="{{ '/about/' | relative_url }}">About</a>
+    <a class="btn btn-outline-primary btn-sm" href="{{ '/projects/' | relative_url }}">Projects</a>
+    <a class="btn btn-outline-primary btn-sm" href="{{ '/resume/' | relative_url }}">Resume</a>
+    <a class="btn btn-outline-primary btn-sm" href="mailto:Unfienproductions@gmail.com">Email</a>
+  </div>
+</section>
+
 {% if site.projects.size > 0 %}
   <div class="mb-4">
     <div class="d-flex align-items-center justify-content-between mb-3">

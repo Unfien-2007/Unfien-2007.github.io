@@ -15,6 +15,8 @@ tabs:
   projects: Projects
   archives: Archives
   about: About
+  tags: Tags
+  resume: Resume
 
 # the text displayed in the search bar & search results
 search:
