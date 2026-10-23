@@ -200,6 +200,12 @@ defaults:
     values:
       comments: false
   - scope:
+      path: "_posts/personal" # personal essays: off the home page, not indexed
+    values:
+      hidden: true
+      sitemap: false
+      noindex: true
+  - scope:
       path: ""
       type: tabs # see `site.collections`
     values:

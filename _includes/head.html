@@ -48,6 +48,10 @@
 
   {{ seo_tags }}
 
+  {% if page.noindex %}
+    <meta name="robots" content="noindex, nofollow">
+  {% endif %}
+
   {%- if site.social.fediverse_handle %}
     <!-- Fediverse handle/creator -->
     <meta name="fediverse:creator" content="{{ site.social.fediverse_handle }}">

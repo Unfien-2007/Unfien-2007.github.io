@@ -2,7 +2,8 @@
 
 {% assign MAX_SIZE = 5 %}
 
-{% assign all_items = site.posts | concat: site.projects %}
+{% assign visible_posts = site.posts | where_exp: 'post', 'post.hidden != true' %}
+{% assign all_items = visible_posts | concat: site.projects %}
 
 {% assign all_list = '' | split: '' %}
 
