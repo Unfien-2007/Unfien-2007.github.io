@@ -34,6 +34,7 @@ workstation for school, coding, and light gaming, one cheap upgrade at a time.
 | RAM | 8 GB DDR4 | Single stick, 2666 MHz |
 | Storage | 240 GB SATA SSD (boot) + 480 GB SATA SSD | Second drive added 2026-10-23 (bought Dec 2025) |
 | GPU | GeForce GT 730 2 GB | Slot-powered — current display output (UHD 630 iGPU as backup) |
+| Cooling | Stock CPU cooler + 92 mm PWM rear exhaust | Fan added 2026-10-16 |
 | Case / PSU | Dell Vostro 3671 micro tower | Proprietary ~290 W PSU (check the label on yours) |
 
 ## Desk Setup
@@ -58,6 +59,12 @@ workstation for school, coding, and light gaming, one cheap upgrade at a time.
 - The drive was bought back in **December 2025** and finally made it into the build
 - More room for games, projects, and files without touching the boot drive
 
+### 2026-10-16 — Cooling upgrade
+
+- Added a **92 mm PWM fan** as a rear exhaust
+- Connected with **SATA-to-PWM adapters** (SATA power, PWM control)
+- Goal: better airflow out of the micro tower and lower temperatures
+
 ### 2026-10-10 — Baseline (as purchased)
 
 - Intel Core i7-9700, 8 GB DDR4, 240 GB SATA SSD, GT 730 2 GB
@@ -69,7 +76,8 @@ workstation for school, coding, and light gaming, one cheap upgrade at a time.
 - [ ] **GPU** — slot-powered card that works with the stock PSU
       (e.g. GTX 1650 / RTX 3050 6 GB class — verify wattage and connectors first)
 - [x] **Storage** — added a 480 GB SATA SSD (~₱3,500); expand to 1 TB when it fills up
-- [ ] **Cooling & maintenance** — new thermal paste, maybe a quieter case fan
+- [x] **Cooling** — added a 92 mm PWM rear exhaust fan (2026-10-16)
+- [ ] **Maintenance** — new thermal paste, and maybe quieter fans
 
 ## Notes & Lessons
 
@@ -80,3 +88,5 @@ workstation for school, coding, and light gaming, one cheap upgrade at a time.
   GT 730 ever acts up, and one less thing to worry about during a GPU swap.
 - Adding a SATA SSD was the easiest upgrade so far — no clearance or power-draw
   concerns, just a spare SATA data and power cable.
+- A 92 mm PWM rear exhaust is an easy cooling win in this case, and SATA-to-PWM
+  adapters keep the install simple.
