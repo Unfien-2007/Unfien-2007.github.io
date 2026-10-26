@@ -31,7 +31,7 @@ workstation for school, coding, and light gaming, one cheap upgrade at a time.
 | Component | Now | Notes |
 |:--|:--|:--|
 | CPU | Intel Core i7-9700 | 8 cores / 8 threads — already the top chip for this socket, no CPU upgrade path |
-| RAM | 8 GB DDR4 | Single stick, 2666 MHz |
+| RAM | 16 GB DDR4 | 2 × 8 GB, 2666 MHz — second stick added 2026-10-26 for ₱2,000 |
 | Storage | 240 GB SATA SSD (boot) + 480 GB SATA SSD | Second drive added 2026-10-23 (bought Dec 2025) |
 | GPU | GeForce GT 730 2 GB | Slot-powered — current display output (UHD 630 iGPU as backup) |
 | Cooling | Stock CPU cooler + 92 mm PWM rear exhaust | Fan added 2026-10-16 |
@@ -51,7 +51,26 @@ workstation for school, coding, and light gaming, one cheap upgrade at a time.
 - **Why this machine:** a real quad-core-plus desktop with a decent upgrade path,
   at a price a student budget can survive
 
+## Total Cost
+
+| Item | Cost |
+|:--|--:|
+| Dell Vostro 3671 (refurbished, Shopee) | ₱12,999 |
+| 480 GB SATA SSD (bought Dec 2025) | ₱3,500 |
+| 8 GB DDR4-2666 RAM | ₱2,000 |
+| 92 mm PWM fan + SATA-to-PWM adapters | not recorded |
+| **Total (known)** | **₱18,499** |
+
+Peripherals (mechanical keyboard, 15.6" external monitor) are not included in
+this total because I don't have their prices on hand.
+
 ## Upgrade Log
+
+### 2026-10-26 — RAM upgrade
+
+- Added another **8 GB DDR4-2666 stick** — ₱2,000
+- Now running **16 GB in dual channel**, which finally gives enough headroom for
+  VMs, a few browser windows, and code editor + server running at the same time
 
 ### 2026-10-23 — Storage upgrade
 
@@ -72,7 +91,7 @@ workstation for school, coding, and light gaming, one cheap upgrade at a time.
 
 ## Planned Upgrades
 
-- [ ] **RAM 8 → 16 GB** — add a matching DDR4-2666 stick (~₱1k, biggest cheap win)
+- [x] **RAM 8 → 16 GB** — added a matching DDR4-2666 stick (₱2,000, 2026-10-26)
 - [ ] **GPU** — slot-powered card that works with the stock PSU
       (e.g. GTX 1650 / RTX 3050 6 GB class — verify wattage and connectors first)
 - [x] **Storage** — added a 480 GB SATA SSD (~₱3,500); expand to 1 TB when it fills up
