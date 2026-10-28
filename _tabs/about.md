@@ -38,6 +38,9 @@ GitHub Actions · Arduino · ESP32
 
 **Curious about** — Docker · self-hosting · homelabs
 
+**Courses completed** — DataCamp (2026): Python (intermediate), Java (intermediate),
+SQL, Git, and data engineering fundamentals
+
 ## Featured Projects
 
 - **[This site](/)** — Jekyll + Chirpy, deployed and maintained with GitHub Actions,

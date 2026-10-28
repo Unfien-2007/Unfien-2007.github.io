@@ -28,6 +28,14 @@ Member, **Junior Philippine Computer Society (JPCS)** — Malvar Chapter
 - **Databases:** SQLite
 - **Hardware:** Arduino, ESP32, PC building and upgrades
 
+## Courses
+
+- **Intermediate Python** — DataCamp, 2026
+- **Intermediate Java** — DataCamp, 2026
+- **Introduction to SQL** — DataCamp, 2026
+- **Introduction to Git** — DataCamp, 2026
+- **Understanding Data Engineering** — DataCamp, 2026
+
 ## Projects
 
 **Personal site** — Jekyll + Chirpy portfolio deployed and maintained with GitHub Actions,
