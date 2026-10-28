@@ -19,6 +19,8 @@ what I learn in public.
 **Bachelor of Science in Information Technology (BSIT)**\
 Batangas State University · 2nd year
 
+Member, **Junior Philippine Computer Society (JPCS)** — Malvar Chapter
+
 ## Skills
 
 - **Languages:** Java, Python, SQL

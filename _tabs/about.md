@@ -20,6 +20,8 @@ whatever I'm learning next.
 **Bachelor of Science in Information Technology (BSIT)**\
 Batangas State University · 2nd year
 
+Member, **Junior Philippine Computer Society (JPCS)** — Malvar Chapter
+
 ## What I'm focused on
 
 - **Deployment & operations** — getting projects live and keeping them running:
