@@ -46,8 +46,9 @@ PWA caching, and analytics.\
 and planned RAM/GPU upgrades.\
 [Read the log](https://unfien-2007.github.io/projects/dell-vostro-3671/)
 
-**Iskolar** — Java 21 + JavaFX scholarship finder, built with AI assistance as a
-learning project (Java OOP final exam; in progress).\
+**Iskolar** — Java 21 + JavaFX scholarship finder with a Spring Boot + Neon Postgres
+API deployed on Render; built with AI assistance as a learning project (Java OOP final
+exam; in progress).\
 [Code](https://github.com/Unfien-2007/iskolarsql)
 
 ## Availability

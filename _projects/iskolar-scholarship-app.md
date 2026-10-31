@@ -6,7 +6,7 @@ description: >-
   is my understanding of it.
 date: 2026-10-31
 status: In Progress
-tech: [Java 21, JavaFX, SQLite, Maven, JUnit 5]
+tech: [Java 21, JavaFX, SQLite, Maven, JUnit 5, Spring Boot, Render, Neon]
 repo: https://github.com/Unfien-2007/iskolarsql
 pin: true
 ---
@@ -47,6 +47,16 @@ What is built so far:
 - **Admin portal** — scholarship catalog and eligibility-rule editor
 - **Accounts** — login and registration with BCrypt-hashed passwords
 
+## Companion API
+
+The desktop app doesn't work alone: a small **Spring Boot** service (`server/`) serves
+the scholarship catalog and handles account auth with JWT. It runs on **Render** (free
+tier, Docker) with a **Neon** Postgres database. The app polls it for catalog updates
+and keeps a cached copy so matching still works offline.
+
+Deployed endpoints: health check, register/login, password reset, catalog snapshot and
+version.
+
 ## Stack
 
 | Layer | Used for |
@@ -56,6 +66,8 @@ What is built so far:
 | Maven | build and `javafx:run` |
 | SQLite + JDBC/HikariCP | local database and pooled connections |
 | JUnit 5 | tests, mainly around the matching engine |
+| Spring Boot | companion API — catalog and auth endpoints |
+| Render + Neon | API hosting (Docker, free tier) and Postgres database |
 | jBCrypt | password hashing |
 
 ## How I'm learning with it
@@ -81,7 +93,7 @@ short note under "Notes as I learn":
 - [ ] Why the matching engine uses these specific weights (35/30/20/15)
 - [ ] What HikariCP does that a plain JDBC connection doesn't
 - [ ] How an FXML controller reaches a service and a model
-- [ ] How the companion `server/` API (JWT auth) fits into the app
+- [ ] How the companion `server/` API (Spring Boot + JWT) fits into the app
 
 ## Notes as I learn
 
