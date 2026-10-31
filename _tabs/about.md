@@ -47,6 +47,8 @@ SQL, Git, and data engineering fundamentals
   with PWA caching and analytics
 - **[Dell Vostro 3671 Build](/projects/dell-vostro-3671/)** — build log for my first
   desktop, upgraded one part at a time
+- **[Iskolar](/projects/iskolar-scholarship-app/)** — Java scholarship finder I'm
+  building with AI assistance to learn Java OOP
 
 More on the [Projects page](/projects/).
 
